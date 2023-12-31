@@ -762,7 +762,11 @@ body {
   justify-content: center;
   flex: 60%;
 }
+.single-product .single-product__top .single-product__images div {
+  align-items: center;
+}
 .single-product .single-product__top .single-product__images .slide-img {
+  justify-content: center;
   margin: 0 auto;
   width: 80%;
   height: 80%;

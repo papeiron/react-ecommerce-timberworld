@@ -26,7 +26,12 @@
       justify-content: center;
       flex: 60%;
 
+      div {
+        align-items: center;
+      }
+
       .slide-img {
+        justify-content: center;
         margin: 0 auto;
         width: 80%;
         height: 80%;
