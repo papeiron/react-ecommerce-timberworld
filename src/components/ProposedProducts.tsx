@@ -4,7 +4,7 @@ import { useFetchProductsQuery } from '../redux/api/productApiSlice';
 import Loading from './Loading';
 
 export default function ProposedProducts({ title }: { title: string }) {
-  const { data, isLoading, isError, error } = useFetchProductsQuery();
+  const { data, isLoading } = useFetchProductsQuery();
 
   const proposedData = data?.filter((product) => product.id < 11);
 

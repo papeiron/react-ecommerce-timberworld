@@ -13,10 +13,10 @@ type FilterValues = {
 };
 
 export default function ProductList() {
-  const { data, isLoading, isError, error } = useFetchProductsQuery();
+  const { data, isLoading } = useFetchProductsQuery();
   const filteringValues = useAppSelector((store) => store.filters as FilterValues);
   const [currentPage, setCurrentPage] = useState(1);
-  const [itemsPerPage, setItemsPerPage] = useState(6);
+  const [itemsPerPage] = useState(6);
   const [visiblePaginationPages, setvisiblePaginationPages] = useState<(number | string)[]>([]);
   const MAX_VISIBLE_PAGES = 3;
 

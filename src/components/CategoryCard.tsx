@@ -1,4 +1,3 @@
-import React from 'react';
 import { type CategoryImages } from '../redux/slice/categoryImagesSlice';
 
 type CategoryCard = {

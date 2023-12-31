@@ -5,8 +5,7 @@ import { useAppDispatch } from '../redux/hooks';
 import { addToCart } from '../redux/slice/cartSlice';
 
 export default function SingleProduct(props: SingleProductProps) {
-  const { id, productName, brand, price, img, category, description, size, texture, weight } =
-    props;
+  const { id, productName, brand, price, img, description, size, texture, weight } = props;
   const dispatch = useAppDispatch();
   const handleAddToCart = () => {
     dispatch(addToCart({ id, productName, price, img, quantity: 1 }));
