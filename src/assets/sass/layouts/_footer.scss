@@ -1,0 +1,13 @@
+.footer {
+  font-size: inherit;
+  a,
+  p {
+    font-size: inherit;
+  }
+
+  padding: 15rem 0 5rem 0;
+
+  @media only screen and (max-width: 450px) {
+    padding: 5rem 0 3rem 0;
+  }
+}

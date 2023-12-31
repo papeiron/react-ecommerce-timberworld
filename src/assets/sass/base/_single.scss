@@ -1,0 +1,42 @@
+a {
+  text-decoration: none;
+}
+
+.selected {
+  font-weight: 500;
+}
+
+.separate-line {
+  border-top: 2px solid #ddd;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.no-scroll {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+.darkening {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.link {
+  background-color: inherit;
+  border: none;
+  color: #fff;
+  padding: 1.5rem;
+  cursor: pointer;
+
+  &:hover {
+    color: #9e9689;
+  }
+}

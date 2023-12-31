@@ -1,0 +1,75 @@
+@use '../abstracts/variables.scss' as v;
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+
+  .sidebar-section {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    .sidebar-section__item {
+      color: v.$text-black;
+      margin-bottom: 0.6rem;
+      display: flex;
+      // align-items: center;
+      cursor: pointer;
+
+      p {
+        margin-left: 0.5rem;
+      }
+    }
+
+    .sidebar-section__title {
+      margin-bottom: 2rem;
+      font-weight: 500;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    margin-top: -4rem;
+    max-width: 100vw;
+    align-items: center;
+
+    .sidebar-section__item {
+      display: block;
+      text-align: center;
+    }
+    .sidebar-section:first-child + div,
+    .sidebar-section:first-child + div + div {
+      display: none;
+    }
+    .sidebar-section:first-child {
+      flex-direction: row;
+      gap: 1rem;
+      h2 {
+        display: none;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 380px) {
+    .sidebar-section {
+      display: none;
+    }
+  }
+
+  input[type='email'],
+  input[type='password'],
+  input[type='text'] {
+    padding: 6px;
+  }
+
+  input[type='checkbox'] {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 5px;
+    vertical-align: middle;
+    border: 1px solid #d1d1d2;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    margin-right: 0.5rem;
+  }
+}

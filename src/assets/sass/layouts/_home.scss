@@ -1,0 +1,10 @@
+.home {
+  width: 100%;
+
+  .categories {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+}

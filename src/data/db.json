@@ -1,0 +1,291 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "6 seat sofa",
+      "brand": "IKEA",
+      "price": "950",
+      "category": "Living room",
+      "description": "A 6-seat sofa is a spacious couch designed to comfortably accommodate six people. With ample seating space, it provides a cozy and inviting environment for gatherings, conversations, or relaxation.",
+      "texture": "Comfy Material",
+      "weight": "150kg",
+      "size": "250cm x 100cm",
+      "img": [
+        "/src/assets/img/product-images/6-seat-sofa-1.avif",
+        "/src/assets/img/product-images/6-seat-sofa-2.avif"
+      ]
+    },
+    {
+      "id": 2,
+      "productName": "Large work desk",
+      "brand": "La-Z-Boy",
+      "price": "200",
+      "category": "Office Furniture",
+      "description": "The large work desk offers a spacious and organized workspace, ideal for tasks that require ample surface area. Perfect for both professional and personal use, it provides comfort and functionality with options for storage and cable management.",
+      "texture": "Wood",
+      "weight": "20kg",
+      "size": "160cm x 70cm",
+      "img": [
+        "/src/assets/img/product-images/desk-1.avif",
+        "/src/assets/img/product-images/desk-2.avif"
+      ]
+    },
+    {
+      "id": 3,
+      "productName": "Sink Cabinet",
+      "brand": "Ashley Furniture",
+      "price": "350",
+      "category": "Bathroom",
+      "description": "A sink cabinet is a functional and stylish piece of furniture designed specifically for housing a bathroom or kitchen sink. It combines the practicality of a storage cabinet with the convenience of a built-in sink, offering a seamless and organized solution for your space.",
+      "texture": "Wood",
+      "weight": "50kg",
+      "size": "100cm x 60cm",
+      "img": [
+        "/src/assets/img/product-images/sink-cabinet-1.avif",
+        "/src/assets/img/product-images/sink-cabinet-2.avif"
+      ]
+    },
+    {
+      "id": 4,
+      "productName": "Double sofa",
+      "brand": "Crate & Barrel",
+      "price": "450",
+      "category": "Living room",
+      "description": "A double sofa is a stylish and comfortable seating solution designed to accommodate two individuals. With its space-saving design, this sofa is perfect for cozy living spaces or as a complement to larger furniture arrangements.",
+      "texture": "Comfy Material",
+      "weight": "100kg",
+      "size": "160cm x 80cm",
+      "img": [
+        "/src/assets/img/product-images/double-sofa-1.avif",
+        "/src/assets/img/product-images/double-sofa-2.avif",
+        "/src/assets/img/product-images/double-sofa-3.avif"
+      ]
+    },
+    {
+      "id": 5,
+      "productName": "Floor Lamp",
+      "brand": "IKEA",
+      "price": "120",
+      "category": "Lighting",
+      "description": "A sleek and modern floor lamp, perfect for brightening up any room. Its adjustable design allows for optimal lighting, making it ideal for reading or creating ambiance.",
+      "texture": "Smooth Finish",
+      "weight": "5kg",
+      "size": "180cm Height",
+      "img": [
+        "/src/assets/img/product-images/floor-lamp-1.avif",
+        "/src/assets/img/product-images/floor-lamp-2.avif"
+      ]
+    },
+    {
+      "id": 6,
+      "productName": "High-Cabinet",
+      "brand": "IKEA",
+      "price": "300",
+      "category": "Bathroom",
+      "description": "A tall and elegant high-cabinet offering ample storage space. Its vertical design makes it space-efficient, while its shelves and compartments provide great organization options.",
+      "texture": "Polished Wood",
+      "weight": "40kg",
+      "size": "200cm x 60cm",
+      "img": [
+        "/src/assets/img/product-images/high-cabinet-1.avif",
+        "/src/assets/img/product-images/high-cabinet-2.avif"
+      ]
+    },
+    {
+      "id": 7,
+      "productName": "King-Bed",
+      "brand": "IKEA",
+      "price": "800",
+      "category": "Bedroom",
+      "description": "A luxurious king-sized bed, offering unrivaled comfort and space. Its sturdy frame and plush mattress ensure a restful sleep.",
+      "texture": "Soft Fabric",
+      "weight": "90kg",
+      "size": "200cm x 180cm",
+      "img": [
+        "/src/assets/img/product-images/king-bed-1.avif",
+        "/src/assets/img/product-images/king-bed-2.avif"
+      ]
+    },
+    {
+      "id": 8,
+      "productName": "Queen Bed",
+      "brand": "Crate & Barrel",
+      "price": "700",
+      "category": "Bedroom",
+      "description": "A comfortable and spacious queen-sized bed, perfect for a restful night's sleep. Its elegant design and robust construction make it a centerpiece in any bedroom.",
+      "texture": "Premium Fabric",
+      "weight": "80kg",
+      "size": "200cm x 160cm",
+      "img": [
+        "/src/assets/img/product-images/queen-bed-1.avif",
+        "/src/assets/img/product-images/queen-bed-2.avif"
+      ]
+    },
+    {
+      "id": 9,
+      "productName": "Sofa Vissle",
+      "brand": "Crate & Barrel",
+      "price": "550",
+      "category": "Living room",
+      "description": "The Sofa Vissle is a stylish and comfortable seating option for any living space. Its compact design and durable material make it ideal for everyday use.",
+      "texture": "Durable Fabric",
+      "weight": "45kg",
+      "size": "180cm x 90cm",
+      "img": [
+        "/src/assets/img/product-images/sofa-vissle1.jpg",
+        "/src/assets/img/product-images/sofa-vissle3.jpg"
+      ]
+    },
+    {
+      "id": 10,
+      "productName": "Wooden Table",
+      "brand": "IKEA",
+      "price": "250",
+      "category": "Kitchen",
+      "description": "A sturdy and elegant wooden table, ideal for both dining and work. Its natural wood finish brings warmth and a rustic charm to any room.",
+      "texture": "Natural Wood",
+      "weight": "30kg",
+      "size": "150cm x 75cm",
+      "img": [
+        "/src/assets/img/product-images/table-1.avif",
+        "/src/assets/img/product-images/table-2.avif"
+      ]
+    },
+    {
+      "id": 11,
+      "productName": "Triple Sofa",
+      "brand": "La-Z-Boy",
+      "price": "650",
+      "category": "Living room",
+      "description": "A large and cozy triple sofa, perfect for family homes. Its plush cushions and spacious design provide unparalleled comfort for sitting and lounging.",
+      "texture": "Soft Velvet",
+      "weight": "70kg",
+      "size": "220cm x 100cm",
+      "img": [
+        "/src/assets/img/product-images/triple-sofa-1.avif",
+        "/src/assets/img/product-images/triple-sofa-2.avif"
+      ]
+    },
+    {
+      "id": 12,
+      "productName": "Elite Modern Desk",
+      "brand": "Contempo Designs",
+      "price": "1200",
+      "category": "Office Furniture",
+      "description": "A sleek, minimalist desk designed for modern office spaces. Features a spacious glass top and sturdy metal frame.",
+      "texture": "Glass and Metal",
+      "weight": "45kg",
+      "size": "180cm x 75cm",
+      "img": [
+        "/src/assets/img/product-images/elite-modern-desk-victor-188-desk-12130551824462_940x1.webp",
+        "/src/assets/img/product-images/elite-modern-desk-victor-188-desk-12130550644814_940x2.webp"
+      ]
+    },
+    {
+      "id": 13,
+      "productName": "Office Work Desk",
+      "brand": "Artisan Woodcraft",
+      "price": "950",
+      "category": "Office Furniture",
+      "description": "A handcrafted wooden desk with a unique, original design, blending traditional craftsmanship with modern functionality.",
+      "texture": "Polished Wood",
+      "weight": "55kg",
+      "size": "160cm x 80cm",
+      "img": [
+        "/src/assets/img/product-images/elm_20desk_201_1000_04f28318-040e-4601-a355-00866f644255_940x1.webp",
+        "/src/assets/img/product-images/elm_20desk_1000_9eb075bb-614e-42d0-9d50-ee92ee9387cc_940x2.webp"
+      ]
+    },
+    {
+      "id": 14,
+      "productName": "Fellini Sofa",
+      "brand": "Italian Elegance",
+      "price": "1300",
+      "category": "Living room",
+      "description": "An elegant and comfortable sofa inspired by Italian design, perfect for adding a touch of sophistication to any living room.",
+      "texture": "Rich Fabric",
+      "weight": "80kg",
+      "size": "210cm x 90cm",
+      "img": [
+        "/src/assets/img/product-images/Fellini_1b_940x2.webp",
+        "/src/assets/img/product-images/Fellini_4b_940x1.webp"
+      ]
+    },
+    {
+      "id": 15,
+      "productName": "Hera TV Unit",
+      "brand": "Modern Home",
+      "price": "700",
+      "category": "Living room",
+      "description": "A stylish and functional TV unit with ample storage space. Its contemporary design makes it a great fit for modern living rooms.",
+      "texture": "Matte Finish",
+      "weight": "60kg",
+      "size": "200cm x 50cm",
+      "img": [
+        "/src/assets/img/product-images/hera-tv-02_940x3.webp",
+        "/src/assets/img/product-images/hera-tv-04_940x.webp",
+        "/src/assets/img/product-images/hera-tv-04_940x2.webp"
+      ]
+    },
+    {
+      "id": 16,
+      "productName": "Incanto Italian Attitude Couches Sofa",
+      "brand": "Luxury Comfort",
+      "price": "2500",
+      "category": "Living room",
+      "description": "An exquisite sofa set embodying the Italian attitude towards luxury and comfort. Its lavish design and premium materials offer an unrivaled lounging experience.",
+      "texture": "Fine Leather",
+      "weight": "120kg",
+      "size": "300cm x 120cm",
+      "img": [
+        "/src/assets/img/product-images/incanto-italian-attitude-couches-sofa-1.webp",
+        "/src/assets/img/product-images/incanto-italian-attitude-couches-sofa-2.webp",
+        "/src/assets/img/product-images/incanto-italian-attitude-couches-sofa-3.jpg"
+      ]
+    },
+    {
+      "id": 17,
+      "productName": "Elegant Bedroom Set",
+      "brand": "Luxury Comfort",
+      "price": "2200",
+      "category": "Bedroom",
+      "description": "A complete bedroom set featuring a queen-size bed, two nightstands, and a dresser. Designed for elegance and functionality.",
+      "texture": "Wood and Fabric",
+      "weight": "150kg",
+      "size": "Varies",
+      "img": [
+        "/src/assets/img/product-images/j-and-m-furniture-bedroom-sets-bella-bedroom-collection-j-m-furniture-38348951388419_0ec7b48a-79ee-4968-abd5-2cc6c9847907_940x2.webp",
+        "/src/assets/img/product-images/j-and-m-furniture-bedroom-sets-bella-bedroom-collection-j-m-furniture-38348951191811_0b164610-5b88-4c38-83a6-ff25a4f876e3_940x1.webp"
+      ]
+    },
+    {
+      "id": 18,
+      "productName": "ErgoFlex Office Chair",
+      "brand": "Luxury Comfort",
+      "price": "450",
+      "category": "Office Furniture",
+      "description": "An ergonomic office chair designed for maximum comfort and adjustability, ideal for long working hours.",
+      "texture": "Breathable Mesh",
+      "weight": "25kg",
+      "size": "Adjustable",
+      "img": [
+        "/src/assets/img/product-images/j-and-m-furniture-chair-comfy-high-back-black-office-chair-1.jpg"
+      ]
+    },
+    {
+      "id": 19,
+      "productName": "Jupiter Bed",
+      "brand": "IKEA",
+      "price": "1800",
+      "category": "Bedroom",
+      "description": "A luxurious king-size bed designed for ultimate comfort. Its modern design and high-quality materials make it a centerpiece in any bedroom.",
+      "texture": "Soft Fabric and Wood",
+      "weight": "100kg",
+      "size": "King Size",
+      "img": [
+        "/src/assets/img/product-images/jupiter-bd-wht-bg_940x1.webp",
+        "/src/assets/img/product-images/jupiter-bd-wht-bg_940x2.webp"
+      ]
+    }
+  ]
+}

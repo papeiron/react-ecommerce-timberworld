@@ -1,0 +1,34 @@
+.proposed-products {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+
+  .proposed-products__products {
+    display: flex;
+    gap: 3rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 1rem;
+
+    &::-webkit-scrollbar {
+      background: rgb(235, 233, 233);
+    }
+    &::-webkit-scrollbar-thumb {
+      background: rgb(221, 221, 221);
+      border-radius: 5px;
+    }
+    &:not(:hover)::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    &:not(:hover)::-webkit-scrollbar-thumb {
+      background: transparent;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .proposed-products__title {
+      margin-left: 1rem;
+    }
+  }
+}

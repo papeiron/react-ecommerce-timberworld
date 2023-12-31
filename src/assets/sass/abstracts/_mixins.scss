@@ -1,0 +1,13 @@
+@mixin button-base {
+  font-family: inherit;
+
+  width: 100%;
+  border: 1px solid black;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: black;
+
+  transition: all 0.1s ease;
+}

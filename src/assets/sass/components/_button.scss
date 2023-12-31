@@ -1,0 +1,29 @@
+@use '../abstracts/mixins';
+
+.btn {
+  @include mixins.button-base;
+
+  &:hover {
+    background-color: black;
+    color: #fff;
+  }
+  &:active {
+    background-color: #353535;
+  }
+}
+
+.btn-dark {
+  @include mixins.button-base;
+  background-color: black !important;
+  color: #fff;
+
+  &:active {
+    background-color: #353535 !important;
+  }
+}
+
+.btn-light-text {
+  @include mixins.button-base;
+  color: white;
+  border-color: white;
+}
