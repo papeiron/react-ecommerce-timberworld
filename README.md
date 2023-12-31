@@ -1,30 +1,30 @@
-# React + TypeScript + Vite
+## 1. About
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An e-commerce website made with React.js.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 2. Screenshots
+<img src='https://github.com/papeiron/react-ecommerce-timberworld/assets/151983680/ae9a1265-e14d-4608-add5-1b7d148f73dd' width="600" height="300">
+<img src='https://github.com/papeiron/react-ecommerce-timberworld/assets/151983680/16d0ed96-f84b-4f67-ab25-d39dcc5ba1e5' width="600" height="300">
+<img src='https://github.com/papeiron/react-ecommerce-timberworld/assets/151983680/5318d932-a98c-4ec5-83f5-25a32adf3121' width="600" height="300">
+<img src='https://github.com/papeiron/react-ecommerce-timberworld/assets/151983680/605a8d92-b580-4672-a9b4-bdbbf2619ebf' width="600" height="300">
 
-## Expanding the ESLint configuration
+## 3. How to run the app
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. ``` git clone https://github.com/papeiron/react-ecommerce-timberworld ```
 
-- Configure the top-level `parserOptions` property like this:
+2. ``` cd timber-world ```
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+3. ``` npm i ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+4. ``` json-server --watch .src/data/db.json --port 3004 ```
+
+5. ``` npm run dev ```
+
+## 4. Used technologies
+- [React](https://reactjs.org/)
+- [Redux](https://redux.js.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Sass](https://sass-lang.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [JSON Server](https://github.com/typicode/json-server)
