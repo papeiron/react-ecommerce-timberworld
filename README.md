@@ -1,7 +1,12 @@
 ## 1. About
 
 An e-commerce website made with React.js.
+<br></br>
 
+<h3>Live demo</h3>
+
+https://timber-world.netlify.app
+<br></br>
 
 ## 2. Screenshots
 <img src='https://github.com/papeiron/react-ecommerce-timberworld/assets/151983680/ae9a1265-e14d-4608-add5-1b7d148f73dd' width="600" height="300">
