@@ -17,9 +17,7 @@ An e-commerce website made with React.js.
 
 3. ``` npm i ```
 
-4. ``` json-server --watch .src/data/db.json --port 3004 ```
-
-5. ``` npm run dev ```
+4. ``` npm run dev ```
 
 ## 4. Used technologies
 - [React](https://reactjs.org/)
@@ -27,4 +25,3 @@ An e-commerce website made with React.js.
 - [Typescript](https://www.typescriptlang.org/)
 - [Sass](https://sass-lang.com/)
 - [Tailwind CSS](https://tailwindcss.com/)
-- [JSON Server](https://github.com/typicode/json-server)
