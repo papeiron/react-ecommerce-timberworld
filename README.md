@@ -4,7 +4,7 @@ An e-commerce website.
 
 Built in React.
 ## Live Demo
-https://timber-world.netlify.app
+[https://timber-world.netlify.app](https://timberworld.netlify.app)
 
 note:
 if you don't want to deal with email activation, you can use the following account below:
