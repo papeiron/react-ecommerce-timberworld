@@ -1,6 +1,6 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
-const API_URL = 'https://e-commerce-s7d8.onrender.com/';
+const API_URL = 'http://localhost:3004';
 
 export type Product = {
   id: number;

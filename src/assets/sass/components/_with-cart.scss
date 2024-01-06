@@ -1,0 +1,29 @@
+.with-cart {
+  margin: 5rem 0 5rem 0;
+  overflow: hidden;
+  flex: 1;
+  display: flex;
+  z-index: 0;
+  .cart-section {
+    width: 100%;
+    position: static;
+    height: 100%;
+    .cart {
+      box-shadow: none;
+      height: 100%;
+      margin: 0 auto;
+    }
+    .cart__checkout {
+      order: -1;
+    }
+    .cart__title {
+      display: none;
+    }
+    a {
+      display: none;
+    }
+  }
+  .closeIcon {
+    display: none;
+  }
+}

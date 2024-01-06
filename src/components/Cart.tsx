@@ -10,6 +10,7 @@ type CartProps = {
 };
 
 export default function Cart({ className }: CartProps) {
+  const isCartNotEmpty = useAppSelector((state) => state.cart.items.length > 0);
   const dispatch = useAppDispatch();
   const addedProductsToCart = useAppSelector((state) => state.cart.items);
   const totalPrice = useAppSelector((state) =>
@@ -35,8 +36,8 @@ export default function Cart({ className }: CartProps) {
           <span className='cart__total-price'>
             Total<p>{totalPrice}$ USD</p>
           </span>
-          <Link onClick={handleCloseCart} to='/signin'>
-            <Button classNames='btn-dark' content='Check out' />
+          <Link onClick={handleCloseCart} to='/checkout'>
+            <Button disabled={!isCartNotEmpty} classNames='btn-dark' content='Check out' />
           </Link>
         </div>
       </div>

@@ -3,14 +3,32 @@ import { type Product as SingleProductProps } from '../redux/api/productApiSlice
 import ProposedProducts from './ProposedProducts';
 import { useAppDispatch } from '../redux/hooks';
 import { addToCart } from '../redux/slice/cartSlice';
+import { useNavigate } from 'react-router-dom';
+import { useState } from 'react';
+import { MdOutlineDone as AddedIcon } from 'react-icons/md';
 
 export default function SingleProduct(props: SingleProductProps) {
+  const [buttonClass, setButtonClass] = useState('');
+  const navigate = useNavigate();
   const { id, productName, brand, price, img, description, size, texture, weight } = props;
   const dispatch = useAppDispatch();
   const handleAddToCart = () => {
+    setButtonClass('');
     dispatch(addToCart({ id, productName, price, img, quantity: 1 }));
+    setButtonClass('added-cart');
   };
 
+  const handleAddToCartandNavigate = () => {
+    dispatch(addToCart({ id, productName, price, img, quantity: 1 }));
+    navigate('/checkout');
+  };
+
+  const buttonClassReset = () => {
+    setTimeout(() => {
+      setButtonClass('');
+    }, 2000);
+  };
+  buttonClassReset();
   return (
     <div className='scontainer'>
       <div className='single-product animate__animated  animate__fadeIns'>
@@ -24,10 +42,15 @@ export default function SingleProduct(props: SingleProductProps) {
             <p className='single-product__description'>{description}</p>
             <p className='single-product__price'>{price}$</p>
             <div className='single-product__buttons'>
-              <button onClick={handleAddToCart} className='btn'>
+              <button onClick={handleAddToCart} className='btn addToCart'>
                 Add to Cart
+                <div className={`animation-icon-wrapper ${buttonClass}`}>
+                  <AddedIcon className='single-product__animationicon' />
+                </div>
               </button>
-              <button className='btn'>Buy now</button>
+              <button onClick={handleAddToCartandNavigate} className='btn'>
+                Buy now
+              </button>
             </div>
           </div>
         </div>

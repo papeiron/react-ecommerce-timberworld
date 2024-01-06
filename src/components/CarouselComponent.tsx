@@ -17,7 +17,7 @@ type CarouselProps = {
 export default function CarouselComponent({ images, type }: CarouselProps) {
   return (
     <Carousel className='carousel'>
-      <CarouselContent className='content '>
+      <CarouselContent className='content'>
         {images.map((image, index) => (
           <CarouselItem className='item' key={index}>
             {type == 'product' ? (

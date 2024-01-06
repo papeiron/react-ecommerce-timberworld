@@ -69,16 +69,28 @@
 
   @media only screen and (max-width: 800px) {
     margin-bottom: 0 !important;
-    .carousel-prev,
-    .carousel-next {
-      display: none;
-    }
 
     .suggestion-content {
       top: 20%;
       max-width: 100%;
       .suggestion-content__title {
         font-size: 4rem !important;
+      }
+    }
+
+    @media only screen and (max-width: 600px) {
+      .carousel-prev,
+      .carousel-next {
+        display: none;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .suggestion-content {
+      top: 60%;
+      h2 {
+        display: none;
       }
     }
   }

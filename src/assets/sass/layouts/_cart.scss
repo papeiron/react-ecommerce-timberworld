@@ -32,8 +32,17 @@
       font-size: 3rem;
       font-weight: 600;
       text-align: center;
-      padding-top: 6rem;
-      margin-bottom: 5rem;
+      padding: 3rem;
+
+      @media only screen and (max-width: 435px) {
+        font-size: 2.9rem;
+        font-weight: 500;
+      }
+
+      @media only screen and (max-width: 365px) {
+        font-size: 2.3rem;
+        font-weight: 500;
+      }
     }
     .cart-item {
       margin: 1rem;

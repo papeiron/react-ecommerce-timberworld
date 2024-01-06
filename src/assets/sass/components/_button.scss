@@ -10,6 +10,9 @@
   &:active {
     background-color: #353535;
   }
+  &:disabled {
+    cursor: not-allowed;
+  }
 }
 
 .btn-dark {
@@ -20,10 +23,16 @@
   &:active {
     background-color: #353535 !important;
   }
+  &:disabled {
+    cursor: not-allowed;
+  }
 }
 
 .btn-light-text {
   @include mixins.button-base;
   color: white;
   border-color: white;
+  &:disabled {
+    cursor: not-allowed;
+  }
 }

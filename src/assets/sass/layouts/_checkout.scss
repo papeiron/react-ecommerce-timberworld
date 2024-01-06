@@ -1,0 +1,33 @@
+.checkout {
+  padding-bottom: 5rem;
+
+  .payment-section {
+    display: flex;
+    margin-top: 4rem;
+    gap: 4rem;
+    height: 50rem;
+    box-shadow: rgb(255, 255, 255) 0px 0px 0px 0px, rgba(17, 24, 39, 0.05) 0px 0px 0px 1px,
+      rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.1) 0px 8px 10px -6px;
+    border-radius: 7px;
+    .form-container {
+      box-shadow: none;
+      flex: 1;
+      .credit-info {
+        display: flex;
+        gap: 1rem;
+        margin-bottom: 5.5rem;
+        div {
+          width: 100%;
+
+          .label {
+            width: 50%;
+          }
+
+          p {
+            position: absolute;
+          }
+        }
+      }
+    }
+  }
+}
