@@ -7,17 +7,16 @@ import { useLocation } from 'react-router-dom';
 
 export default function Shop() {
   const dispatch = useAppDispatch();
-  let { state } = useLocation();
-  const category = state?.category || false;
-  if (category) {
-    useEffect(() => {
-      dispatch(setCategory(state.category));
-    }, []);
-  } else {
-    useEffect(() => {
+  const location = useLocation();
+  const category = location.state?.category;
+
+  useEffect(() => {
+    if (category) {
+      dispatch(setCategory(category));
+    } else {
       dispatch(resetFilters());
-    }, []);
-  }
+    }
+  }, [dispatch, category]);
 
   return (
     <div className='scontainer'>

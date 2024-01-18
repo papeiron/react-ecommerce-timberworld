@@ -37,7 +37,7 @@ export default function ProductList() {
       return categoryMatches && brandMatches && priceMathes;
     }) || [];
 
-  let totalPages = Math.ceil(filteredData.length / itemsPerPage);
+  const totalPages = Math.ceil(filteredData.length / itemsPerPage);
 
   const handlePageChange = (pageNumber: number) => {
     setCurrentPage(pageNumber);

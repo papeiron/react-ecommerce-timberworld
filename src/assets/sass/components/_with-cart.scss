@@ -3,7 +3,7 @@
   overflow: hidden;
   flex: 1;
   display: flex;
-  z-index: 0;
+  z-index: 2;
   .cart-section {
     width: 100%;
     position: static;
@@ -24,6 +24,10 @@
     }
   }
   .closeIcon {
+    display: none;
+  }
+
+  @media only screen and (max-width: 1050px) {
     display: none;
   }
 }

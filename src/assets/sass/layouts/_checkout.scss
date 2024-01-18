@@ -30,4 +30,19 @@
       }
     }
   }
+  @media only screen and (max-width: 1050px) {
+    .payment-section {
+      margin: 0 auto;
+      width: 90%;
+      .form-container {
+        margin: auto 0;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 650px) {
+    .payment-section {
+      width: 100%;
+    }
+  }
 }

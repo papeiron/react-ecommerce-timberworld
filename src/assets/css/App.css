@@ -562,6 +562,20 @@ textarea {
 .checkout .payment-section .form-container .credit-info div p {
   position: absolute;
 }
+@media only screen and (max-width: 1050px) {
+  .checkout .payment-section {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .checkout .payment-section .form-container {
+    margin: auto 0;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .checkout .payment-section {
+    width: 100%;
+  }
+}
 
 *,
 *::after,
@@ -573,11 +587,6 @@ textarea {
 
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
-}
-
-body {
-  overflow-x: hidden;
 }
 
 .text-center {
@@ -1196,7 +1205,7 @@ body {
   overflow: hidden;
   flex: 1;
   display: flex;
-  z-index: 0;
+  z-index: 2;
 }
 .with-cart .cart-section {
   width: 100%;
@@ -1219,6 +1228,11 @@ body {
 }
 .with-cart .closeIcon {
   display: none;
+}
+@media only screen and (max-width: 1050px) {
+  .with-cart {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=App.css.map */

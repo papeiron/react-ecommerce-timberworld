@@ -1,8 +1,10 @@
 import { useState } from 'react';
-import { type Product as ProductType } from '../redux/api/productApiSlice';
+import { type Product } from '../redux/api/productApiSlice';
 import { Link } from 'react-router-dom';
 
-export default function Product({ productName, brand, price, img, id }: ProductType) {
+type ProductProps = Product;
+
+export default function Product({ productName, brand, price, img, id }: ProductProps) {
   const [currentImg, setCurrentImg] = useState<string>(img[0]);
   const handleMouseOver = () => {
     setCurrentImg(img[1]);
