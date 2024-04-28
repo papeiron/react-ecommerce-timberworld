@@ -8,8 +8,7 @@ Built in React.
 
 [https://timber-world.netlify.app](https://timber-world.netlify.app/)
 
-note:
-if you don't want to deal with email activation, you can use the following account below:
+test account:
 
 email: [wipos98626@regapts.com](mailto:wipos98626@regapts.com)
 
@@ -47,6 +46,5 @@ npm run dev
 - [Redux](https://redux.js.org/)
 - [Typescript](https://www.typescriptlang.org/)
 - [Sass](https://sass-lang.com/)
-- [Tailwind CSS](https://tailwindcss.com/)
 - [JSON Server](https://github.com/typicode/json-server)
 - [Supabase](https://supabase.com/)
